@@ -319,7 +319,7 @@ button:hover {
 .backgroundSexuality {
 	width:100%; 
 	height: 100vh;
-	background-image: url(images/B1.gif);
+	background-image: url(images/B1.mp4);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -330,7 +330,7 @@ button:hover {
 .backgroundFamily {
 	width:100%; 
 	height: 100vh;
-	background-image: url(images/B2.gif);
+	background-image: url(images/B2.mp4);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
