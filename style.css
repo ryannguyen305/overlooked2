@@ -107,15 +107,42 @@ a:hover {
 } 
 
 .introBody {
-	height: 100vh;
 	padding-top: 100px;
-	background-color: #161E37; 
+	background-color: #f7b56f; 
+	width:100%; 
+	height: 100%;
+	background-image: url(images/indexBG.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center center; 
+}
+
+.introContainer {
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.introButtonContainer {
+	width: 60%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	text-align: center;
+}
+
+.introbuttonContainer a {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
 }
 
 .introBody p {
-	width: 40%;
-	margin-left: auto;
-	margin-right: auto;
 	text-align: center;
 	font-family: 'Alegreya', serif;
 	font-size: 22px;
@@ -308,13 +335,27 @@ p {
 	cursor: pointer;
 }
 
-button {
-
+.chapterButtonsIntro {
+	width: 22vh;
+	height: 6vh;
+	border-radius: 4vh;
+	background-color: rgba(255, 255, 255, 0);
+	font-family: 'Alegreya', serif;
+	color: white;
+	font-size: 2.5vh;
+	border: 2px solid white;
+	text-align: center; 
+	vertical-align: middle;
+	padding-top: 7px;
+	margin-top: 20px;
+	font-weight: 400;
+	letter-spacing: 3px;
 }
 
-button:hover {
-	
+.chapterButtonsIntro:hover {
+	cursor: pointer;
 }
+
 
 .backgroundSexuality {
 	width:100%; 
@@ -341,7 +382,7 @@ button:hover {
 .backgroundCommunity {
 	width:100%; 
 	height: 100vh;
-	background-image: url(images/B3.jpg);
+	background-image: url(images/B3.gif);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -377,7 +418,7 @@ button:hover {
 	width: 100%;
 	height: auto;
 	background-color: #f7b56f;
-	background-image: url(images/B3b.jpg);
+	background-image: url(images/B3b.gif);
   	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -881,7 +922,13 @@ Main components
 }
 
 
+.introButtonLeft {
+	float: left;
+}
 
+.introButtonRight {
+	float: right;
+}
 
 
 @media only screen and (max-width: 1000px) {
@@ -894,12 +941,8 @@ Main components
 	.bigHeadingIndex {
 		font-size: 70px;
 	}
-	.introBody p {
-		width: 80%;
-	}
 	.width25Left {
 		width: 48%;
-		
 	}
 	ul {
 		width: 100%;
@@ -941,6 +984,9 @@ Main components
 	.headerSexuality {
 		background-position: 90%;
 	}
+	.headerCommunity {
+		background-position: left;
+	}
 	.backgroundSexuality {
 		background-position: 25% 50%;
 	}
@@ -954,6 +1000,15 @@ Main components
 	.carousel-indicators .active {
 		width: 25px;
 		height: 25px;
+	}
+	.introButtonContainer {
+		width: 100%;
+	}
+	.introButtonLeft {
+		float: none;
+	}
+	.introButtonRight {
+		float: none;
 	}
 }
 
