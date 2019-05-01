@@ -222,7 +222,8 @@ a:hover {
 .carousel-indicators li {
 	width: 10px;
 	height: 10px;
-	margin-left: 50px;
+	margin-left: 25px;
+	margin-right: 25px;
 	background-color: rgba(255, 255, 255, 0.5);
 	border: 0px;
 }
@@ -235,7 +236,8 @@ a:hover {
 .carousel-indicators .active {
 	width: 15px;
 	height: 15px;
-	margin-left: 50px;
+	margin-left: 25px;
+	margin-right: 25px;
 	border-style: solid;
 	border-width: 5px;
 	border-color: rgba(255, 255, 255, 0.5)
@@ -617,7 +619,10 @@ li {
 		display: none;
 	}
 	.carousel-caption {
-		margin-bottom: 30%;
+		margin-bottom: 45%;
+	}
+	.bigHeading {
+		padding-top: 0px;
 	}
 	
 }
