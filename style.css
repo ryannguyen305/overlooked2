@@ -228,10 +228,10 @@ a:hover {
 	border: 0px;
 }
 
-.carousel-indicators:hover {
+/* .carousel-indicators:hover {
 	padding-left: 15px;
 	padding-right: 15px;
-}
+} */
 
 .carousel-indicators .active {
 	width: 15px;
@@ -948,12 +948,12 @@ Main components
 		background-position: 20% 50%;
 	}
 	.carousel-indicators li {
-		width: 25px;
-		height: 25px;
+		width: 20px;
+		height: 20px;
 	}
 	.carousel-indicators .active {
-		width: 30px;
-		height: 30px;
+		width: 25px;
+		height: 25px;
 	}
 }
 
