@@ -947,6 +947,14 @@ Main components
 	.backgroundCommunity {
 		background-position: 20% 50%;
 	}
+	.carousel-indicators li {
+		width: 25px;
+		height: 25px;
+	}
+	.carousel-indicators .active {
+		width: 30px;
+		height: 30px;
+	}
 }
 
 
