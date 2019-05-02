@@ -1201,7 +1201,7 @@
 }
 .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
   background-color: white;
-  color: black;
+  color: #5B6175;
 }
 
 /* Back Pulse */
