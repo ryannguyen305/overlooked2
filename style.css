@@ -111,7 +111,7 @@ a:hover {
 	background-color: #f7b56f; 
 	width: 100%; 
 	height: 100%;
-	background-image: url(images/indexBG.jpg);
+	background-image: url(images/index.gif);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -121,7 +121,7 @@ a:hover {
 
 .introContainer {
 	position: fixed;
-	width: 95%;
+	width: 60%;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -989,10 +989,11 @@ Main components
 		background-position: left;
 	}
 	.backgroundSexuality {
-		background-position: 25% 50%;
+		background-position: 15% 50%;
 	}
 	.backgroundCommunity {
-		background-position: 20% 50%;
+		background-position: 15% 50%;
+		/* background-position: 20% 50%; */
 	}
 	.carousel-indicators li {
 		width: 20px;
@@ -1010,6 +1011,12 @@ Main components
 	}
 	.introButtonRight {
 		float: none;
+	}
+	.introBody {
+		background-position: 35% 50%;
+	}
+	.introContainer {
+		width: 90%;
 	}
 }
 
