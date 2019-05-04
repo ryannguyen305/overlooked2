@@ -31,14 +31,7 @@ a:hover {
 	color: #365c55;
 }      
 
-.lightbox { 
-	background-color: #ded8c5; 
-	color: black;
-	margin-top: -20px;
-	margin-bottom: -20px;
-	height: 100vh; 
-	width: 100%;
-}
+
 
 .hide { 
 	display: none;
@@ -184,12 +177,44 @@ a:hover {
     z-index: 1;
 }
 
+.lightbox { 
+	background-color: #F8DABC; 
+	color: black;
+	height: 100vh; 
+	width: 100%;
+}
+
+.aboutBody {
+	width: 70%;
+}
+
 .aboutContainer {
 	width: 70%;
+	height: 100%;
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: auto; 
 	position: relative;
-	padding-top: 100px;
+	padding-top: 70px;
+	margin-bottom: 100px;
+	color: #5B6175;
+}
+
+.aboutContainer img {
+	width: 80%;
+	height: auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.aboutText {
+	font-family: 'Yeseva One', cursive;
+	font-size: 20px;
+	line-height: 35px;
+}
+
+.aboutContainer h2 {
+	font-size: 35px;
+	margin-bottom: 30px;
 }
  
 .back {
@@ -590,6 +615,19 @@ li {
 .width80 img {
 	width: 100%;
 	padding-bottom: 20px;
+}
+
+.width100 {
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.width100 img {
+	width: 110%;
+	padding-bottom: 20px;
+	margin-left: -5%;
+	margin-right: auto;
 }
 
 .quoter {
@@ -1016,6 +1054,15 @@ Main components
 	}
 	.introContainer {
 		width: 90%;
+	}
+	.aboutContainer{
+		width: 80%;
+	}
+	.aboutBody {
+		width: 100%;
+	}
+	.lightbox  {
+		height: 100%;
 	}
 }
 
