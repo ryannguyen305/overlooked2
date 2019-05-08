@@ -969,6 +969,33 @@ Main components
 }
 
 
+
+
+@media only screen and (max-width: 1500px) {
+	.introContainer {
+		width: 70%;
+	}
+	.bigHeadingIndex {
+		font-size: 120px;
+		text-align: center;
+	}
+	.headerSexuality {
+		background-position: 90%;
+	}
+	.headerCommunity {
+		background-position: left;
+	}
+	.backgroundSexuality {
+		background-position: 15% 50%;
+	}
+	.backgroundCommunity {
+		background-position: 15% 50%;
+		/* background-position: 20% 50%; */
+	}
+}
+
+
+
 @media only screen and (max-width: 1000px) {
 	.width40 {
 		width: 85%;
