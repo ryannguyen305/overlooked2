@@ -971,7 +971,7 @@ Main components
 
 
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1366px) and (min-width: 1000px) {
 	.introContainer {
 		width: 70%;
 	}
@@ -991,6 +991,23 @@ Main components
 	.backgroundCommunity {
 		background-position: 15% 50%;
 		/* background-position: 20% 50%; */
+	}
+	.introButtonContainer {
+		width: 90%;
+	}
+	.carousel-caption {
+		margin-bottom: 30%;
+	}
+	.bigHeading {
+		padding-top: 20px;
+	}
+	.carousel-indicators li {
+		width: 20px;
+		height: 20px;
+	}
+	.carousel-indicators .active {
+		width: 25px;
+		height: 25px;
 	}
 }
 
