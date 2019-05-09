@@ -120,6 +120,14 @@ a:hover {
     transform: translate(-50%, -50%);
 }
 
+.smallImage {
+	width: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	display: block;
+}
+
 .introButtonContainer {
 	width: 60%;
 	display: block;
