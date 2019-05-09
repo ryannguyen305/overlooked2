@@ -992,9 +992,10 @@ Main components
 		background-position: 15% 50%;
 		/* background-position: 20% 50%; */
 	}
-	.introButtonContainer {
+	/*.introButtonContainer {
 		width: 90%;
 	}
+	 this makes resizing funky 
 	.carousel-caption {
 		margin-bottom: 30%;
 	}
@@ -1008,7 +1009,7 @@ Main components
 	.carousel-indicators .active {
 		width: 25px;
 		height: 25px;
-	}
+	}*/
 }
 
 
