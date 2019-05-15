@@ -1,4 +1,4 @@
-lightboxdy {
+lightbox
         background: #FCF6F2;
         height: 100%;
         margin: 0;
@@ -35,7 +35,7 @@ a:hover {
 
 .hide { 
 	display: none;
-}
+} 
 
 .progress-container {
   width: 100%;
@@ -189,11 +189,11 @@ a:hover {
 .lightbox { 
 	background-color: #F8DABC; 
 	color: black;
-	height: 100vh; 
+	height: 100%; 
 	width: 100%;
 }
 
-.aboutBody {
+.aboutBody { 
 	width: 70%;
 }
 
@@ -204,7 +204,7 @@ a:hover {
 	margin-right: auto; 
 	position: relative;
 	padding-top: 70px;
-	margin-bottom: 100px;
+	margin-bottom: 30px;
 	color: #5B6175;
 }
 
@@ -324,6 +324,14 @@ p {
 }
 
 .bigHeading {
+	font-family: 'Yeseva One', cursive;
+	font-size: 15vh;
+	color: white;
+	text-align: center;
+	padding-top: 20px; 
+}  
+
+.bigHeadingEN {
 	font-family: 'Yeseva One', cursive;
 	font-size: 15vh;
 	color: white;
@@ -1065,7 +1073,7 @@ Main components
 		display: none;
 	}
 	.hide {
-		display: none;
+		display: initial;
 	}
 	.carousel-caption {
 		margin-bottom: 30%;
@@ -1117,6 +1125,12 @@ Main components
 	}
 	.lightbox  {
 		height: 100%;
+	}
+	.bigHeadingEN {
+		font-size: 50px;
+	}
+	.reveal {
+		display: none;
 	}
 }
 
