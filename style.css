@@ -1,5 +1,4 @@
-body {
-        background: #FCF6F2;
+width30        background: #FCF6F2;
         height: 100%;
         margin: 0;
       }
@@ -553,12 +552,14 @@ p {
 	width: 30%;
 	float: left;
 	text-align: center;
-}
+	margin-bottom: 30px;
+} 
 
 .width30Right {
 	width: 30%;
 	float: left;
 	text-align: center;
+	margin-bottom: 30px;
 }
 
 .width25Left {
