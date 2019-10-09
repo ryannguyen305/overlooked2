@@ -549,6 +549,10 @@ p {
 	text-align: center;
 }
 
+.flagsection {
+	width: 100%;
+	overflow: auto;
+}
 
 .width30Left {
 	width: 30%;
@@ -560,6 +564,7 @@ p {
 .width30Right {
 	width: 30%;
 	float: left;
+	position: relative;
 	text-align: center;
 	margin-bottom: 30px;
 }
